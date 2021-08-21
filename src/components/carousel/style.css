@@ -75,12 +75,12 @@
     align-items: center;
     row-gap: 8px;
     padding: 16px;
-    opacity: 0%;
+    opacity: 0;
     cursor: pointer;
 }
 
 .carousel-item-content:hover {
-    opacity: 100%;
+    opacity: 1;
     transition: opacity 0.5s;
 }
 
