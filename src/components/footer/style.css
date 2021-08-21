@@ -1,0 +1,16 @@
+.footer{
+    background-color: #FF3147;
+    width: 100%;
+    min-height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer>div{
+    width: 100%;
+    flex: 0.8;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
