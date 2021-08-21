@@ -55,12 +55,17 @@
     background-repeat: no-repeat;
     background-position: center;
     pointer-events:none;
+    z-index: 1;
 }
 
 .carousel-item-background:hover{
     opacity: 0%;
 }
 .carousel-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
     width: calc( 100% - 32px );
     height: calc(100% - 32px);
     background-color: #FF3147;
@@ -75,10 +80,6 @@
 }
 
 .carousel-item-content:hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
     opacity: 100%;
     transition: opacity 0.5s;
 }
